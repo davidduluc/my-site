@@ -3,14 +3,25 @@
 }
 
 .App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+.profile-pic {
   height: 40vmin;
   pointer-events: none;
+  border-radius: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  .profile-pic {
+    animation: 
+      pulse 3s ease infinite alternate, 
+      nudge 5s linear infinite alternate;
+  }
+
 }
 
 .App-header {
@@ -26,6 +37,7 @@
 
 .App-link {
   color: #61dafb;
+  margin-bottom: 20px;
 }
 
 @keyframes App-logo-spin {

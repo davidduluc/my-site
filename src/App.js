@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import me from './me.jpeg';
 import './App.css';
 
 function App() {
@@ -6,17 +7,22 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={me} className="profile-pic" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          David Duluc - Software Engineer
         </p>
+      
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/davidduluc/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Connect with me on LinkedIn here.
         </a>
+        <p>
+          More content coming soon!
+        </p>
       </header>
     </div>
   );
